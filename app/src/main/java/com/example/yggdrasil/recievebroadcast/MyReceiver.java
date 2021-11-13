@@ -10,6 +10,7 @@ public class MyReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
+       //pull my leg
         Toast.makeText(context, "Broadcast Recived", Toast.LENGTH_SHORT).show();
 
     }
